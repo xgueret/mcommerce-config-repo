@@ -13,4 +13,4 @@ spring:
     sql-script-encoding: UTF-8
     
 mes-configs:
-  limitDeProduits: 10
+  limitDeProduits: 3
