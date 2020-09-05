@@ -1,12 +1,18 @@
 #Configurations H2
 spring:
-    application:
-      name: micorservice-paiement
-    jpa:
-      show-sql: true
-    h2:
-      console:
-        enabled: true
+  application:
+    name: micorservice-paiement
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
   #défini l'encodage pour data.sql
-    datasource:
-      sql-script-encoding: UTF-8
+  datasource:
+    sql-script-encoding: UTF-8
+
+#Eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9102/eureka/
