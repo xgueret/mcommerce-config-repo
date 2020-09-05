@@ -11,6 +11,13 @@ spring:
   #défini l'encodage pour data.sql
   datasource:
     sql-script-encoding: UTF-8
-    
+
+#Eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9102/eureka/
+
+#mes configs
 mes-configs:
   limitDeProduits: 3
