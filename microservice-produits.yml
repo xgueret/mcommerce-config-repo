@@ -17,4 +17,4 @@ eureka:
 
 #mes configs
 mes-configs:
-  limitDeProduits: 3
+  limitDeProduits: 6
