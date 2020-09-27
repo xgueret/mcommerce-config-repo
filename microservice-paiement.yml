@@ -1,9 +1,7 @@
-#Configurations H2
 spring:
-  application:
-    name: microservice-paiement
   jpa:
     show-sql: true
+  #Configurations H2
   h2:
     console:
       enabled: true
